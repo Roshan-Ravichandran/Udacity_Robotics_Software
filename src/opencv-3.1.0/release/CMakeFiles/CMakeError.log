@@ -1,0 +1,60 @@
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_419c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_419c9.dir/build.make CMakeFiles/cmTC_419c9.dir/build
+make[1]: Entering directory '/home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_419c9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_419c9.dir/CheckIncludeFile.c.o   -c /home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_419c9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_419c9.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_419c9.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_419c9/fast' failed
+make: *** [cmTC_419c9/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ced76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ced76.dir/build.make CMakeFiles/cmTC_ced76.dir/build
+make[1]: Entering directory '/home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ced76.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_ced76.dir/CheckIncludeFile.c.o   -c /home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_ced76.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ced76.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ced76.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ced76/fast' failed
+make: *** [cmTC_ced76/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_665fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_665fe.dir/build.make CMakeFiles/cmTC_665fe.dir/build
+make[1]: Entering directory '/home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_665fe.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -ffunction-sections -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_665fe.dir/CheckIncludeFile.c.o   -c /home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: ffmpeg/avformat.h: No such file or directory
+ #include <ffmpeg/avformat.h>
+          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_665fe.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_665fe.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_665fe.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/roshanravi/Desktop/ros_ws/src/opencv-3.1.0/release/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_665fe/fast' failed
+make: *** [cmTC_665fe/fast] Error 2
+
+
